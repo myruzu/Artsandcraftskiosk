@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;700;900&display=swap");
+
+:root {
+  --page-1-color: rgb(43, 58, 103);
+  --page-2-color: rgb(255, 134, 14);
+  --page-3-color: rgb(32, 84, 76);
+  --page-4-color: rgb(85, 38, 214);
+  --gradient-color-1: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+  --dgrey-color: #333;
+  --vlight-color: #f1f1f1;
+  --antique-white: #EFE8DC;
+  --light-brown: #402B23;
+  --airforce-blue: #00308F;
+  --animate-speed: 2s;
+  --Header-large: 4.5em;
+}
+
+
+
+
+/* Japanese Gift Wrapping - Intro */
+
+.jgw>* {
+    color: var(--dgrey-color);
+}
+
+#jgw-intro {
+    background: url(/Images/gift-wrap.jpeg) no-repeat center center/cover;
+    position: relative;
+    z-index: 1;
+}
+
+#jgw-intro::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+
+
+.home-btn {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    display: block;
+    z-index: 2;
+}
+
+.home-btn i {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+    font-size: 4em;
+}
+
+.home-btn a {
+    text-decoration: none;
+    outline: none;
+    color: var(--new-white);
+    transition: all 0.5s ease-in-out;
+    
+   
+}
+
+.home-btn a:hover {
+    color: var(--new-black);
+}
+
+.jgw h1 {
+    
+    font-size: var(--Header-large);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.jgw p {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0 auto 40px auto;
+    
+}
+
+#jgw-intro h1, #jgw-intro p {
+    color: var( --new-white);
+}
+
+.jgw ul {
+    list-style: none;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+
+.jgw .list-items {
+   padding: 15px 75px;
+    background: #F2F2F2;
+    border: 0 solid #333;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--new-black);
+}
+
+.jgw .list-items li {
+    font-size: 1.6rem;
+    margin: 15px auto;
+}
+
+#jgw-intro .btn {
+    background: var(--new-white);
+    color: var(--new-black);
+    border: 1px solid var(--new-black);
+    transition: all 0.5s ease-in-out;
+}
+
+#jgw-intro .btn:hover {
+    background: var(--new-black);
+    color: var(--new-white);
+}
+
+#jgw-intro a {
+    text-decoration: none;
+    margin-top: 10px;
+    
+}
+
+
+
+/* Japanese Gift Wrapping - 2nd Page */
+
+#jgw-more-info {
+    background-color: var(--new-white);
+}
+
+
+#jgw-more-info h2 {
+    width: 75%;
+}
+
+#jgw-more-info p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6;
+    width: 75%;
+    margin: 10px;
+}
+
+
+#jgw-more-info a {
+    text-decoration: none;
+    margin: 2rem auto 1rem auto;
+    border: 1px solid var(--new-black);
+    margin: 35px;
+}
+
+#jgw-wrapping-styles {
+    background-color: var(--dgrey-color);
+}
+
+#jgw-wrapping-styles .btn {
+    background: var(--new-white);
+    color: var(--new-black);
+    border: 1px solid var(--new-black);
+    transition: all 0.5s ease-in-out;
+    margin-top: 50px;
+}
+
+#jgw-wrapping-styles .btn:hover {
+    background: var(--new-black);
+    color: var(--new-white);
+}
+
+
+

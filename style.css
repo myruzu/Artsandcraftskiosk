@@ -1,0 +1,502 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;700;900&display=swap");
+
+:root {
+  --page-1-color: rgb(43, 58, 103);
+  --page-2-color: rgb(255, 134, 14);
+  --page-3-color: rgb(32, 84, 76);
+  --page-4-color: rgb(85, 38, 214);
+  --gradient-color-1: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
+  --dgrey-color: #333;
+  --vlight-color: #f1f1f1;
+  --antique-white: #EFE8DC;
+  --light-brown: #402B23;
+  --airforce-blue: #00308F;
+  --animate-speed: 2s;
+  --new-white: #F2F2F2;
+  --new-black: #0D0D0D;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.4;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
+/* Pages */
+
+/* #page-1 {
+  background: url(/Images/Main-page.svg) center center/cover no-repeat;
+} */
+
+#page-1 {
+  height: 100vh;
+}
+
+
+#page-2 {
+  background: url(/Images/in-the-making-studio-JWEMsn3ES1U-unsplash.jpg)
+    no-repeat center center/cover;
+}
+
+#page-3 {
+  background: url(/Images/Japanese-craft-2.svg) center center/cover no-repeat;
+  
+}
+
+#page-4 {
+  background: url(Images/Canvas-overlay.jpg) no-repeat center
+  center/cover;
+  position: relative;
+  
+}
+
+#page-5 {
+  background: url(/Images/ceramics-main-2.jpg) no-repeat center center/cover;
+}
+
+
+
+/* #page-5 {
+  background: #c67000;
+} */
+
+/* #page-4::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+} */
+
+#page-6 {
+  height: 100vh;
+  background: url(/Images/Torii.jpg) no-repeat center center/cover;
+}
+
+
+
+/* page-1   Showcase */
+
+
+#page-1 .home-button a {
+  margin: 20px auto;
+  padding: 1.5rem 4rem;
+  width: 50vw;
+  
+}
+
+#page-1 video {
+  height: 100%;
+  margin: auto 0;
+}
+
+
+
+
+
+/* Page 2 Navigation Page */
+
+#page-2 h2 {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin: 1rem;
+  color: var(--dgrey-color);
+}
+
+#page-3 h2 i {
+font-size: 3rem;
+}
+
+#page-2 .nav-menu-btn {
+  margin: 50px auto;
+  justify-content: space-evenly;
+  
+}
+
+#page-2 .nav-menu-btn a {
+  margin: 0 5vw;
+  width: 20vw;
+}
+
+#page-2 .nav-button a {
+  margin-top: 8vh;
+  width: 50vw;
+}
+
+
+
+
+
+/* Page 3 Japanese Crafts */
+
+
+
+#page-3 h2 {
+  font-size: 4rem;
+  color: var(--antique-white);
+  text-align: center;
+}
+
+#page-3 .nav-menu-btn {
+  margin: 25px auto;
+  justify-content: space-evenly;
+}
+
+
+#page-3 .nav-menu-btn a {
+  margin: 0 5vw;
+  width: 20vw;
+
+}
+
+#page-3 .nav-button a {
+  margin-top: 8vh;
+  width: 50vw;
+}
+
+#page-3 p {
+  background: rgb(3, 3, 3, 0.8);
+  border-radius: 15px;
+  padding: 1rem 1rem;
+}
+
+
+
+
+/* Page 4    Traditional Crafts */
+
+
+#page-4 h2 {
+  margin-bottom: 0.5rem;
+  font-size: 4rem;
+  color: #fff;
+}
+
+#page-4 h2 i {
+  font-size: 3rem;
+}
+
+
+
+#page-4 .nav-menu-btn {
+  margin: 25px auto;
+  justify-content: space-evenly;
+  
+}
+
+#page-4 .nav-menu-btn a {
+  margin: 0 5vw;
+  width: 20vw;
+}
+
+#page-4 .nav-button a {
+  margin-top: 8vh;
+  width: 50vw;
+}
+
+
+
+
+
+
+
+.page p {
+  font-size: 1.3rem;
+  color: var(--dgrey-color);
+  font-weight: 600;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: var(--antique-white);
+  color: var(--light-brown);
+  text-decoration: none;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+  border-radius: 15px;
+}
+
+.btn:hover,
+.btn-dark {
+  background: var(--light-brown);
+  color: var(--antique-white);
+}
+
+.btn-dark {
+  color: #333;
+  background: var(--antique-white);
+}
+
+
+
+/* page-5  Ceramics */
+
+#page-5 h2 {
+  font-size: 4rem;
+  color: #fff;
+  margin: 10px;
+}
+
+#page-5 .left-side-img img {
+  width: 35vw;
+  border-radius: 50px;
+ }
+
+ #page-5 .right-side-buttons a {
+  width: 300px;
+ }
+
+ #page-5 .nav-button {
+  margin-top: 25px;
+ }
+
+
+
+ /* Page-6    Tours */
+
+
+
+ #page-6 h2 {
+  font-size: 4rem;
+  color: #fff;
+  margin: 20px;
+}
+
+
+#page-6 .nav-menu-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+}
+
+ #page-6 .nav-menu-btn a {
+  width: 60vw;
+  margin-top: 20px;
+  padding: 20px 0;
+  font-size: 1.4rem;
+ }
+
+ #page-6 .nav-button {
+  margin-top: 25px;
+ }
+
+
+
+
+
+ /*  Query Selectors */
+
+
+ @media(max-width: 600px) {
+
+  #page-1 .home-button a {
+    font-size: 14px;
+    margin: 25px auto;
+    padding: 1rem 4rem;
+    width: 40vw;
+    
+  }
+  
+  #page-1 video {
+    height: 100%;
+    margin: 0;
+  }
+
+  .page-bottom {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  /* Page 2 */
+
+  #page-2 .page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin-top: 0;
+    
+  }
+
+  #page-2 h2 {
+    font-size: 2.5rem;
+    color: var(--dgrey-color);
+  }
+
+  #page-2 p {
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+  
+  #page-2 .nav-menu-btn {
+    justify-content: center;
+    margin: 2px 0;
+  }
+  
+  #page-2 .nav-menu-btn a {
+    margin: 10px 0;
+    width: 45vw;
+  }
+  
+  #page-2 .nav-button a {
+    margin-top: 50px;
+    width: 40vw;
+  }
+  
+/* Page 3   Japanese Crafts */
+#page-3 h2 {
+  font-size: 2rem;
+  color: var(--antique-white);
+  text-align: center;
+}
+
+#page-3 h2 i {
+  font-size: 1.5rem;
+}
+
+#page-3 .nav-menu-btn {
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+#page-3 .nav-menu-btn a {
+  margin: 0;
+  width: 50vw;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1rem;
+  
+}
+
+#page-3 .nav-menu-btn a:nth-child(even) {
+  margin-top: 25px;
+}
+
+#page-3 .nav-menu-btn a:nth-child(odd) {
+  margin-top: 0;
+}
+
+#page-3 .nav-button a {
+  margin-top: 10px;
+  width: 60vw;
+}
+
+
+/* Page 4   Traditional Crafts */
+
+#page-4 h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+}
+
+#page-4 h2 i {
+  font-size: 2rem;
+}
+
+
+
+#page-4 .nav-menu-btn {
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  
+}
+
+#page-4 .nav-menu-btn a {
+  margin: 10px 0;
+  width: 50vw;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1rem;
+
+}
+
+#page-4 .nav-button a {
+  margin-top: 8vh;
+  width: 50vw;
+}
+
+
+/* Page-5   Ceramics */
+
+
+
+#page-5 h2 {
+  font-size: 3rem;
+  color: #fff;
+}
+
+
+ #page-5 .right-side-buttons a {
+  width: 50vw;
+  padding: 20px 0;
+ }
+
+ #page-5 .nav-button {
+  margin-top: 15px;
+
+ }
+
+  
+ }
+
+
+
+
+
+
+/* Page Animation */
+
+/* #page-1 h1 {
+  transform: translateY(-1200px);
+  animation: heading var(--animate-speed) forwards ease-in;
+}
+
+#page-1 p {
+  transform: translateX(-1200px);
+  animation: text var(--animate-speed) forwards ease-in 1s;
+}
+
+@keyframes heading {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes text {
+  to {
+    transform: translateX(0);
+  }
+} */
+
+
+
+

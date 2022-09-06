@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;700;900&display=swap");
+
+.carousel {
+    position: relative;
+}
+
+.carousel__item {
+    height: 70vh;
+    width: 80vw;
+    /* background: #333; */
+    /* padding: 1em; */
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 2em; */
+    color: #F2F2F2;
+    font-weight: 900;
+    display: none;
+    margin: 0;
+}
+
+.carousel__item--selected {
+    display: block;
+}
+
+.carousel__nav {
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.carousel__button {
+    width: 80px;
+    height: 40px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    margin: 0 25px;
+    cursor: pointer;
+}
+
+.carousel__button--selected {
+    background: rgba(255,  255, 255, 0.5);
+}
+
+
+
+.carousel__item .img-1 {
+    height: 70%;
+    border-radius: 25px;
+    object-position: center;
+}
+
+.carousel__item h2 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.carousel__item p {
+    font-size: .75rem;
+    font-weight: 400;
+}

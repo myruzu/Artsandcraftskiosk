@@ -1,0 +1,163 @@
+/* Headers */
+
+.massive-header {
+  font-size: 5.96rem;
+  font-weight: 900;
+}
+
+.bigger-header {
+  font-size: 4.768rem;
+}
+
+.big-header {
+  font-size: 3.052rem;
+}
+
+.sub-header {
+  font-size: 2.441rem;
+  font-weight: 500;
+}
+
+
+
+
+
+/* Page general layout */
+
+
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0 4rem;
+  width: auto;
+}
+
+.page-2 {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0 4rem;
+  width: auto;
+}
+
+.page-row {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+  
+}
+
+
+
+
+.page-bottom {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding: 0 4rem;
+}
+
+.page-column {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 0 1rem;
+  margin: 0;
+  width: 100%;
+ }
+
+
+
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background: #f4f4f4;
+  color: #333;
+  text-decoration: none;
+  border: none;
+  /* margin-top: 1rem; */
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+}
+
+.btn-2 {
+  display: inline-block;
+  padding: 1rem 4rem;
+  background: #f4f4f4;
+  color: #333;
+  text-decoration: none;
+  border: none;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: all 0.3s ease-in;
+}
+
+.btn:hover,
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+.btn-dark {
+  color: #333;
+  background: #fff;
+}
+
+.btn-2:hover {
+  color: #fff;
+  background: var(--airforce-blue);
+}
+
+
+/* page layouts */
+
+.right-side-buttons {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 50vw;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-side-img {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 40vw;
+ height: 70vh;
+ margin: auto;
+}
+
+
+/* txt */
+
+.emtxt {
+  font-weight: 800;
+  
+}
+
+
+/* btn layouts */
+

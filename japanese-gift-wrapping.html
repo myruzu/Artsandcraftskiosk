@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Gift Wrapping</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/utilities.css">
+    <link rel="stylesheet" href="/carousel.css">
+    <link rel="stylesheet" href="/class-styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="jgw">
+        <div class="home-btn">
+            <a href="index.html#page-3"><i class="fa-solid fa-angle-left"></i></a>
+        </div>
+    </header>
+    <section class="jgw page" id="jgw-intro">
+        
+        <div>
+            <h1>Japanese Gift Wrapping</h1>
+            <p>Fridays 10:30 a.m. - 11:30 a.m.</p>
+        </div>
+        
+            <ul class="list-items">
+                <li> <span class="emtxt">October 14th</span>  &#160 Furoshiki Wrapping</li>
+                <li> <span class="emtxt">October 14th</span>  &#160 Mizuhiki Wrapping</li>
+                <li> <span class="emtxt">October 14th</span>  &#160 Bamboo Wrapping</li>
+                <li> <span class="emtxt">October 14th</span>  &#160 Mizuhiki Wrapping</li>
+                <li> <span class="emtxt">October 14th</span>  &#160 Peacock Wrapping</li>
+                <li> <span class="emtxt">October 14th</span>  &#160 Furoshiki Wrapping</li>
+                <li><a href="#jgw-more-info" class="btn">See More Information &#160<i class="fa-solid fa-angle-down"></i></a></li>
+            </ul>
+        
+             
+            
+    </section>
+
+    <section id="jgw-more-info" class="jgw page">
+        <h2 class="big-header">Japanese Gift Wrapping is a craft orginating hundreds of years ago</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus expedita est adipisci sapiente magni fuga esse exercitationem. Sint atque voluptatem minus.</p>
+            
+        <p>Quas culpa aspernatur maxime ad dolor, vitae saepe, adipisci exercitationem enim eveniet, hic ipsam deleniti similique. Iusto officia quasi fugiat. Doloribus earum consequuntur quis perspiciatis numquam nobis error.</p>
+
+        <div class="btn-flex-row">
+        <a href="#jgw-intro" class="btn">Class Dates &#160<i class="fa-solid fa-angle-up"></i></a>
+        <a href="#jgw-wrapping-styles" class="btn">Wrapping Styles &#160<i class="fa-solid fa-angle-down"></i></a>
+        </div>
+
+    </section>
+
+
+    <section id="jgw-wrapping-styles" class="page">
+        
+        <div class="carousel">
+            <div class="carousel__item">
+                <h2>Furoshiki</h2><img class="img-1" src="/Images/gift-wrap.jpeg" alt=""></div>
+            <div class="carousel__item"><h2>Peacock</h2><img class="img-1" src="/Images/Torii.jpg" alt="">
+            </div>
+            <div class="carousel__item"><h2>Mizuhiki</h2><img class="img-1" src="/Images/jeff-wade-2mzYh2Qu-ek-unsplash.jpg" alt="">
+            </div>
+            <div class="carousel__item"><h2>Bamboo</h2><img class="img-1" src="/Images/Blue-paint.jpeg" alt="">
+            </div>
+        </div>
+
+        <div class="btn-flex-row">
+        <a href="#jgw-intro" class="btn">Class Dates &#160<i class="fa-solid fa-angle-up"></i></a>
+        </div>
+
+    </section>
+
+    <script src="/carousel.js"></script>
+
+    
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous">
+  </script>
+
+<script>
+    // Smooth Scrolling
+    $('.btn').on('click', function(event) { 
+        if (this.hash !== '') {
+            event.preventDefault();
+            const hash = this.hash;
+            $('html, body').animate(
+                {
+                    scrollTop: $(hash).offset().top
+                },
+                800
+            );
+        }
+         });
+</script>
+</body>
+</html>
