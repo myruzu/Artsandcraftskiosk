@@ -44,7 +44,7 @@ body {
 }
 
 #page-3 {
-  background: url(/Images/Japanese-craft-2.svg) center center/cover no-repeat;
+  background: url(/Images/Japanese-background.jpg) center center/cover no-repeat;
   
 }
 
@@ -141,7 +141,7 @@ font-size: 3rem;
 
 #page-3 h2 {
   font-size: 4rem;
-  color: var(--antique-white);
+  color: var(--new-black);
   text-align: center;
 }
 
